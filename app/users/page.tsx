@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
@@ -28,6 +29,7 @@ export default function page() {
           </div>
         );
       })}
+      <Button variant="default">Button</Button>
     </div>
   );
 }
